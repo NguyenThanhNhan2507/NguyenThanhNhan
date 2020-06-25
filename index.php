@@ -12,7 +12,7 @@
         <div id="menutop"><!--phần Menutop-->
             <ul>
                 <li><a href="/game/index2.html">Home</a></li>
-                <li><a href="/game/b%C3%A1n%20acc.html">Store</a></li>
+                <li><a href="datacenter.php">Store</a></li>
                 <li><a href="#">Transaction history</a></li>
                 <li><a href="/game/dk.js.html">Recharge shop</a></li>
                 <li><a href="/game/game.html">Page</a></li>
