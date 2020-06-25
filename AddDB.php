@@ -13,9 +13,8 @@ list-style: none;
 <h1>Add data in product table</h1>
     <ul>
         <form name="InsertData" action="InsertData.php" method="POST" >
-            <li>products_id:</li><li><input type="text" name="products_id" /></li>
-            <li>name:</li><li><input type="text" name="name" /></li>
-            <li>price:</li><li><input type="text" name="price" /></li>
+            <li>Email:</li><li><input type="text" name="Email" /></li>
+            <li>Password:</li><li><input type="text" name="Password" /></li>
             <li><input type="submit" value="Add" /></li>
         </form>
     </ul>
@@ -49,7 +48,7 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO products(products_id, name, price) VALUES ('$_POST[products_id]','$_POST[name]', '$_POST[price]')";
+$sql = "INSERT INTO products(Email,Pasword) VALUES ('$_POST[products_id]','$_POST[name]', '$_POST[price]')";
 $stmt = $pdo->prepare($sql);
 echo ($sql);
     if($stmt->execute() == TRUE){

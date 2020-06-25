@@ -31,12 +31,8 @@
         $resultSet = $stmt->fetchAll();
     ?>
     <h1>ATN's Store</h1>
-    <button onclick="location.href='index.php'">Back to Homepage</button>
+    <button onclick="location.href='index.php'">Home</button>
     <div class="container">
-        <div class="grid-view">
-            <div class="grid-item">
-                <a href="./AddDB.php" target="framename"><b>Add Toy</b></a>
-            </div>
             <div class="grid-item">
                 <a href="./DeleteData.php" target="framename"><b>Delete Toy</b></a>
             </div>

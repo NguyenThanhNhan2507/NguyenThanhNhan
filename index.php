@@ -11,13 +11,13 @@
         </div><!--End phần Banner-->
         <div id="menutop"><!--phần Menutop-->
             <ul>
-                <li><a href="/game/index2.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li><a href="datacenter.php">Store</a></li>
                 <li><a href="#">Transaction history</a></li>
-                <li><a href="/game/dk.js.html">Recharge shop</a></li>
-                <li><a href="/game/game.html">Page</a></li>
+                <li><a href="index.php">Recharge shop</a></li>
+                <li><a href="index.php">Page</a></li>
                 <li><a href="#">Guide</a></li>
-                <li><a href="InsertData.php">Login</a></li>
+                <li><a href="AddDB.php">Login</a></li>
             </ul>
         </div><!--End phần Menutop-->
         <div id="maincontent"><!--phần bao của content-->
@@ -37,14 +37,16 @@
                         </a>
                     </div>
                     <div class="status"> 
-                        <p class="giá">Toy: 1</p>
+                        <p class="giá">ID:1</p>
+                        <p class="giá">Name: Zed</p>
                         <p class="giá">.Price: $60</p>
-                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
                     </div>
                     <div class="status">  
-                        <p class="giá">Toy: 2</p>
+                        <p class="giá">ID:2</p>
+                        <p class="giá">Name: Gragas</p>
                         <p class="giá">.Price: $20</p>
-                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
                     </div>
             
                     <div class="imgage">
@@ -55,15 +57,17 @@
                             <img src="/image/Toy4.jpg" width="480" height="360"> 
                         </a>
                     </div>
-                    <div class="status"> 
-                        <p class="giá">Toy: 3</p>
+                    <div class="status">
+                        <p class="giá">ID:3</p>
+                        <p class="giá">Name: Yasuo</p>
                         <p class="giá">.Price: $40</p>
-                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
                     </div>
                     <div class="status">  
-                        <p class="giá">Toy: 4</p>
+                        <p class="giá">ID: 4</p>
+                        <p class="giá">Name: Jax</p>
                         <p class="giá">.Price: $25</p>
-                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
                     </div>
                   
             </div>
