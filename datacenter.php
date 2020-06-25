@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./mainstyle.css"/>
-    <title>ATN data center</title>
+    <title>ATN's Store</title>
 </head>
 <body>
         <?php
@@ -36,16 +36,16 @@
         <div class="grid-view">
             <div class="grid-item">
                 <img src="./database.png"/>
-                <a href="#" onClick="displayData()"><b>View Invoice Database</b></a>
+                <a href="#" onClick="displayData()"><b>View Information product</b></a>
             </div>
             <div class="grid-item">
-                <a href="./AddDB.php" target="framename"><b>Add database</b></a>
+                <a href="./AddDB.php" target="framename"><b>Add Toy</b></a>
             </div>
             <div class="grid-item">
-                <a href="./DeleteData.php" target="framename"><b>Delete database</b></a>
+                <a href="./DeleteData.php" target="framename"><b>Delete Toy</b></a>
             </div>
             <div class="grid-item">
-                <a href="UpdateData.php" target="framename"><b>Update Database</b></a>
+                <a href="UpdateData.php" target="framename"><b>Update Toy</b></a>
             </div>
             <div id ="displaychange" class="grid-item">
                 <table class="table table-bordered table-condensed">
