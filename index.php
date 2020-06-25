@@ -1,7 +1,7 @@
 ﻿<html>
 <head>
     <meta charset="utf-8">
-    <title>WEB BAN ACC LOL</title>
+    <title>ATN</title>
     <link href="css2.css" rel="stylesheet">
 </head>
 <body>
@@ -36,17 +36,11 @@
                             <img src="/image/Toy2.jpg" width="480" height="360"> 
                         </a>
                     </div>
-                    <div class="status">
-                        <p>.Acc: Bạch Kim</p>
-                        <p>.Skin: 60</p>
-                        <p>.Tướng: 130</p>    
+                    <div class="status">    
                         <p class="giá">.Price: $60</p>
                         <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
-                    <div class="status">
-                        <p>.Acc: Đồng</p>
-                        <p>.Skin: 25</p>
-                        <p>.Tướng: 60</p>    
+                    <div class="status">    
                         <p class="giá">.Price: $20</p>
                         <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
@@ -59,17 +53,11 @@
                             <img src="/image/Toy4.jpg" width="480" height="360"> 
                         </a>
                     </div>
-                    <div class="status">
-                        <p>.Acc: Vàng</p>
-                        <p>.Skin: 40</p>
-                        <p>.Tướng: 100</p>    
+                    <div class="status">   
                         <p class="giá">.Price: $40</p>
                         <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
-                    <div class="status">
-                        <p>.Acc: Chưa có</p>
-                        <p>.Skin: 30</p>
-                        <p>.Tướng: 70</p>    
+                    <div class="status">   
                         <p class="giá">.Price: $25</p>
                        <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
