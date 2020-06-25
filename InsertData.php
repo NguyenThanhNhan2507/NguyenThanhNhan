@@ -49,7 +49,7 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO Toys(ToyID, Name) VALUES ('$_POST[ToyID]','$_POST[name]')";
+$sql = "INSERT INTO Toys(ToyID, Name) VALUES ('$_POST[ToyID]','$_POST[Name]')";
 $stmt = $pdo->prepare($sql);
 echo ($sql);
     if($stmt->execute() == TRUE){
