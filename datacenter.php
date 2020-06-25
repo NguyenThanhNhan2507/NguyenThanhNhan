@@ -39,7 +39,7 @@
                 <a href="#" onClick="displayData()"><b>View Invoice Database</b></a>
             </div>
             <div class="grid-item">
-                <a href="./InsertData.php" target="framename"><b>Add database</b></a>
+                <a href="./AddDB.php" target="framename"><b>Add database</b></a>
             </div>
             <div class="grid-item">
                 <a href="./DeleteData.php" target="framename"><b>Delete database</b></a>
