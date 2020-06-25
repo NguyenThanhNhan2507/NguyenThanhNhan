@@ -17,7 +17,7 @@
                 <li><a href="/game/dk.js.html">Recharge shop</a></li>
                 <li><a href="/game/game.html">Page</a></li>
                 <li><a href="#">Guide</a></li>
-                <li><a href="/game/dk.js.html">Login</a></li>
+                <li><a href="InsertData.php">Login</a></li>
             </ul>
         </div><!--End phần Menutop-->
         <div id="maincontent"><!--phần bao của content-->
