@@ -24,9 +24,9 @@
             <div id="content">
                 <img src="/image/yasuo.jpg" width="1000" height="576">
                 <h2><i>League</i> of legends</h2>
-				<p>The prestigious acc, cheap, unleash choose.</p>
+				<p>The prestigious toys, cheap, unleash choose.</p>
                 <div class="buy">
-                    <p id="title">List:<strong> Acc</strong></p>
+                    <p id="title">List:<strong>Toys</strong></p>
                 </div> 
                     <div class="imgage">
                         <a class="sp" href="#">
@@ -36,11 +36,13 @@
                             <img src="/image/Toy2.jpg" width="480" height="360"> 
                         </a>
                     </div>
-                    <div class="status">    
+                    <div class="status"> 
+                        <p class="giá">Toy: 1</p>
                         <p class="giá">.Price: $60</p>
                         <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
-                    <div class="status">    
+                    <div class="status">  
+                        <p class="giá">Toy: 2</p>
                         <p class="giá">.Price: $20</p>
                         <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
@@ -53,11 +55,13 @@
                             <img src="/image/Toy4.jpg" width="480" height="360"> 
                         </a>
                     </div>
-                    <div class="status">   
+                    <div class="status"> 
+                        <p class="giá">Toy: 3</p>
                         <p class="giá">.Price: $40</p>
                         <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>
-                    <div class="status">   
+                    <div class="status">  
+                        <p class="giá">Toy: 4</p>
                         <p class="giá">.Price: $25</p>
                        <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
                     </div>

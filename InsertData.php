@@ -10,7 +10,7 @@ list-style: none;
 </style>
 </head>
 <body>
-<h1>INSERT DATA TO DATABASE</h1>
+<h1>Sign Up</h1>
 <h2>Enter data into customers table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
