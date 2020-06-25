@@ -30,14 +30,10 @@
         $stmt->execute();
         $resultSet = $stmt->fetchAll();
     ?>
-    <h1>ATN's Database</h1>
+    <h1>ATN's Store</h1>
     <button onclick="location.href='index.php'">Back to Homepage</button>
     <div class="container">
         <div class="grid-view">
-            <div class="grid-item">
-                <img src="./database.png"/>
-                <a href="#" onClick="displayData()"><b>View Information product</b></a>
-            </div>
             <div class="grid-item">
                 <a href="./AddDB.php" target="framename"><b>Add Toy</b></a>
             </div>

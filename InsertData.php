@@ -53,9 +53,9 @@ $sql = "INSERT INTO products(products_id, name, price) VALUES ('$_POST[products_
 $stmt = $pdo->prepare($sql);
 echo ($sql);
     if($stmt->execute() == TRUE){
-        echo "Record inserted successfully.";
+        echo "Thank you for your add";
     } else {
-        echo "Error inserting record: ";
+        echo "You have entered the wrong product";
     }
 
 ?>

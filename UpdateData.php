@@ -38,9 +38,9 @@ if (empty(getenv("DATABASE_URL"))){
 $sql = "UPDATE products SET name = '$_POST[newname]' WHERE products_id = '$_POST[id]'";
       $stmt = $pdo->prepare($sql);
 if($stmt->execute() == TRUE){
-    echo "Record updated successfully.";
+    echo "You have successfully updated";
 } else {
-    echo "Error updating record. ";
+    echo "You have failed to update";
 }
     
 ?>
