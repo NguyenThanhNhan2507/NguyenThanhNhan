@@ -39,12 +39,12 @@
                     <div class="status"> 
                         <p class="giá">Toy: 1</p>
                         <p class="giá">.Price: $60</p>
-                        <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
                     </div>
                     <div class="status">  
                         <p class="giá">Toy: 2</p>
                         <p class="giá">.Price: $20</p>
-                        <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
                     </div>
             
                     <div class="imgage">
@@ -58,12 +58,12 @@
                     <div class="status"> 
                         <p class="giá">Toy: 3</p>
                         <p class="giá">.Price: $40</p>
-                        <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
                     </div>
                     <div class="status">  
                         <p class="giá">Toy: 4</p>
                         <p class="giá">.Price: $25</p>
-                       <button class="buy"> <li><a href="/game/dk.js.html">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="Buynow.php">BuyNow</a></li></button>
                     </div>
                   
             </div>

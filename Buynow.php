@@ -14,13 +14,9 @@ list-style: none;
 <h2>Enter data into customers table</h2>
 <ul>
     <form name="InsertData" action="InsertData.php" method="POST" >
-<li>Customer ID:</li><li><input type="text" name="customerID" /></li>
-<li>Email:</li><li><input type="text" name="Email" /></li>
-<li>First Name:</li><li><input type="text" name="FirstName" /></li>
-<li>Last Name:</li><li><input type="text" name="LastName" /></li>
-<li>Street:</li><li><input type="text" name="Street" /></li>
-<li>City:</li><li><input type="text" name="City" /></li>
-<li>Phone:</li><li><input type="text" name="Phone" /></li>
+<li>Toy ID:</li><li><input type="text" name="Toy ID" /></li>
+<li>Number</li><li><input type="text" name="Number" /></li>
+
 <li><input type="submit" /></li>
 </form>
 </ul>
