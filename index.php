@@ -40,13 +40,13 @@
                         <p class="giá">ID:1</p>
                         <p class="giá">Name: Zed</p>
                         <p class="giá">.Price: $60</p>
-                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="./InsertData.php">BuyNow</a></li></button>
                     </div>
                     <div class="status">  
                         <p class="giá">ID:2</p>
                         <p class="giá">Name: Gragas</p>
                         <p class="giá">.Price: $20</p>
-                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="./InsertData.php">BuyNow</a></li></button>
                     </div>
             
                     <div class="imgage">
@@ -61,13 +61,13 @@
                         <p class="giá">ID:3</p>
                         <p class="giá">Name: Yasuo</p>
                         <p class="giá">.Price: $40</p>
-                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="./InsertData.php">BuyNow</a></li></button>
                     </div>
                     <div class="status">  
                         <p class="giá">ID: 4</p>
                         <p class="giá">Name: Jax</p>
                         <p class="giá">.Price: $25</p>
-                        <button class="buy"> <li><a href="InsertData.php">BuyNow</a></li></button>
+                        <button class="buy"> <li><a href="./InsertData.php">BuyNow</a></li></button>
                     </div>
                   
             </div>
