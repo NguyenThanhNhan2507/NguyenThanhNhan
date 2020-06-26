@@ -16,7 +16,6 @@
         $db = parse_url(getenv("DATABASE_URL"));
         $pdo = new PDO("pgsql:" . sprintf(
                 "host=ec2-52-7-39-178.compute-1.amazonaws.com;port=5432;user=pywptpbruozrrv;password=b35ae4e2595488eeda104cdb0b7ef15be8c3c8dd92cca70d6c576da8950cf8d5;dbname=d4rkh71lld4jfg",
-                $db["host"],
                 $db["port"],
                 $db["user"],
                 $db["pass"],
@@ -24,7 +23,7 @@
         ));
         }  
 
-        $sql = "SELECT * FROM products ORDER BY products_id";
+        $sql = "SELECT * FROM products ORDER BY product_id";
         $stmt = $pdo->prepare($sql);
         $stmt->setFetchMode(PDO::FETCH_ASSOC);
         $stmt->execute();
