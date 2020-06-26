@@ -23,7 +23,7 @@ list-style: none;
 <?php
 
 if (empty(getenv("DATABASE_URL"))){
-    $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=postgres', 'postgres', '123456');
+    $pdo = new PDO('pgsql:host=localhost;port=5432;dbname=d4rkh71lld4jfg', 'postgres', '123456');
 }  else {
    $db = parse_url(getenv("DATABASE_URL"));
    $pdo = new PDO("pgsql:" . sprintf(
