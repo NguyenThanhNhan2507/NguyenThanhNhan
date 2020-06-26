@@ -29,7 +29,7 @@
         $stmt->execute();
         $resultSet = $stmt->fetchAll();
     ?>
-    <h1>ATN's Store</h1>
+    <h1>ATN's Cart</h1>
     <button onclick="location.href='index.php'">Home</button>>
     <div class="container">
             <div id ="displaychange" class="grid-item">
