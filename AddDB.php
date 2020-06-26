@@ -16,7 +16,7 @@ list-style: none;
             <li>customer_id:</li><li><input type="text" name="customer_id" /></li>
             <li>Email:</li><li><input type="text" name="email" /></li>
             <li>Password:</li><li><input type="text" name="password" /></li>
-            <li><input type="submit" value="OK" /></li>
+            <li><input type="submit"/></li>
         </form>
     </ul>
 
