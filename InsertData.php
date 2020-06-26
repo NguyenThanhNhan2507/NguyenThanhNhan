@@ -60,4 +60,7 @@ echo ($sql);
 
 ?>
 </body>
+   <h1>ATN's Store</h1>
+    <button onclick="location.href='index.php'">Home</button>
 </html>
+
