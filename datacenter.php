@@ -44,9 +44,15 @@
                     <thead>
                     <tr>
                         <td>product_id</td>
+                   <?php
+                   
+                            foreach ($resultSet as $row) {
+                    ?>
+                    
+                    <tr>
+                        <td scope="row"><?php echo $row['product_id'] ?></td>
                         <td>name</td>
                         <td>price</td>
-                        <td>2</td>
                     </tr>
                     </thead>
                     <tbody>
