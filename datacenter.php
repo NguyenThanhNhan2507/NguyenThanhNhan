@@ -31,13 +31,9 @@
     ?>
     <h1>ATN's Store</h1>
     <button onclick="location.href='index.php'">Home</button>
+        <button onclick="location.href='index.php'">Home</button>
+            <button onclick="location.href='index.php'">Home</button>
     <div class="container">
-            <div class="grid-item">
-                <a href="./DeleteData.php" target="framename"><b>Delete Toy</b></a>
-            </div>
-            <div class="grid-item">
-                <a href="UpdateData.php" target="framename"><b>Update Toy</b></a>
-            </div>
             <div id ="displaychange" class="grid-item">
                
                <table width="400" height="200" border="2">  
