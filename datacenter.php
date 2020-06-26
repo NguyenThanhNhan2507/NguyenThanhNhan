@@ -39,12 +39,25 @@
                 <a href="UpdateData.php" target="framename"><b>Update Toy</b></a>
             </div>
             <div id ="displaychange" class="grid-item">
-                <table class="table table-bordered table-condensed">
+               
+               <table width="400" height="200" border="2">  
                     <thead>
                     <tr>
-                        <th>product_id</th>
-                        <th>name</th>
-                        <th>price</th>
+                        <td>product_id</td>
+                        <td scope="row"><?php echo $row['product_id'] ?></td>
+                    </tr>
+                    <tr>
+                        <td>name</td>
+                        <td><?php echo $row['name'] ?></td>
+                    </tr>
+                    <tr>
+                        <td>price</td>
+                        <td><?php echo $row['price'] ?></td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            
+                        </td>
                     </tr>
                     </thead>
                     <tbody>
@@ -53,11 +66,7 @@
                             foreach ($resultSet as $row) {
                     ?>
                     
-                    <tr>
-                        <td scope="row"><?php echo $row['product_id'] ?></td>
-                        <td><?php echo $row['name'] ?></td>
-                        <td><?php echo $row['price'] ?></td>     
-                    </tr>
+
                     
                     <?php
                             }
