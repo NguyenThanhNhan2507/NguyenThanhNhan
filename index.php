@@ -12,7 +12,7 @@
         <div id="menutop"><!--phần Menutop-->
             <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="datacenter.php">Store</a></li>
+                <li><a href="datacenter.php">Cart</a></li>
                 <li><a href="#">Transaction history</a></li>
                 <li><a href="index.php">Recharge shop</a></li>
                 <li><a href="index.php">Page</a></li>
