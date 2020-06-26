@@ -30,12 +30,13 @@
         $resultSet = $stmt->fetchAll();
     ?>
     <h1>ATN's Cart</h1>
-    <button onclick="location.href='index.php'">Home</button>>
+    <link href="css.css" rel="stylesheet">
+    <button onclick="location.href='index.php'">Home</button>
     <div class="container">
             <div id ="displaychange" class="grid-item">
                
                <table width="400" height="200" border="2">  
-                    <thead>
+                    <head>
                         <tr>      
                     <button class="buy"> <li><a href="./DeleteData.php">Delete</a></li></button>  
                     <button class="buy"> <li><a href="./UpdateData.php">Update</a></li></button>
@@ -45,7 +46,7 @@
                         <td>name</td>
                         <td>price</td>
                     </tr>
-                    </thead>
+                    </head>
                     <tbody>
                     <?php
                    
