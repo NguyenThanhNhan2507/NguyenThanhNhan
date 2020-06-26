@@ -12,11 +12,11 @@ list-style: none;
 <body>
 <h1>Add data in user table</h1>
     <ul>
-        <form name="InsertData" action="AddDB.php" method="POST" >
-            <li>customer_id:</li><li><input type="text" name="customer_id" /></li>
-            <li>Email:</li><li><input type="text" name="email" /></li>
-            <li>Password:</li><li><input type="text" name="password" /></li>
-            <li><input type="submit"/></li>
+        <form name="InsertData" action="AddDB.php.php" method="POST" >
+            <li>customer_id:</li><li><input type="text" name="customer_id    " /></li>
+            <li>email:</li><li><input type="text" name="email" /></li>
+            <li>password:</li><li><input type="text" name="password" /></li>
+            <li><input type="submit" value="Add" /></li>
         </form>
     </ul>
 
@@ -49,34 +49,18 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO customers(customer_id,email,pasword) VALUES ('$_POST[customer_id]','$_POST[email]','$_POST[password]')";
+$sql = "INSERT INTO customers(customer_id, email, password) VALUES ('$_POST[customer_id]','$_POST[email]', '$_POST[password]')";
 $stmt = $pdo->prepare($sql);
 echo ($sql);
     if($stmt->execute() == TRUE){
-        echo "Record inserted successfully.";
+        echo "Thank you for your add";
     } else {
-        echo "Error inserting record: ";
+        echo "You have entered the wrong product";
     }
 
 ?>
 </body>
+   <h1></h1>
+    <button onclick="location.href='index.php'">Home</button>
 </html>
 
-
-<h1>ATN's Store</h1>
-    <button onclick="location.href='index.php'">Home</button>
-    <div class="container">
-        <div class="grid-view">
-            <div class="grid-item">
-                <a href="#" onClick="displayData()"><b>View Invoice Database</b></a>
-            </div>
-            <div id ="displaychange" class="grid-item">
-                <table class="table table-bordered table-condensed">
-                    <thead>
-                    <tr>
-                        <th>customer_id</th>
-                        <th>email</th>
-                        <th>password</th>
-                    </tr>
-                    </thead>
-                    <tbody>
