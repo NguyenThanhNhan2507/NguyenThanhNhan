@@ -56,7 +56,7 @@
                     ?>
                     
                     <tr>
-                        <td scope="row"><?php echo $row['customer-id'] ?></td>
+                        <td scope="row"><?php echo $row['customer_id'] ?></td>
                         <td><?php echo $row['email'] ?></td>
                         <td><?php echo $row['password'] ?></td>     
                     </tr>

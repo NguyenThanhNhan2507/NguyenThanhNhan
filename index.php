@@ -17,7 +17,7 @@
                 <li><a href="index.php">Recharge shop</a></li>
                 <li><a href="index.php">Page</a></li>
                 <li><a href="#">Guide</a></li>
-                <li><a href="customer.php">Login</a></li>
+                <li><a href="AddDB.php">Login</a></li>
             </ul>
         </div><!--End phần Menutop-->
         <div id="maincontent"><!--phần bao của content-->
