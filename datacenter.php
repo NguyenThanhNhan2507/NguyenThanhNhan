@@ -44,14 +44,11 @@
                     <thead>
                     <tr>
                         <td>product_id</td>
-                   <?php
-                   
-                            foreach ($resultSet as $row) {
-                    ?>
-                    
+                    </tr>
                     <tr>
-                        <td scope="row"><?php echo $row['product_id'] ?></td>
                         <td>name</td>
+                    </tr>
+                    <tr>
                         <td>price</td>
                     </tr>
                     </thead>
