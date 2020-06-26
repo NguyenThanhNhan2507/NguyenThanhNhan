@@ -16,7 +16,7 @@ list-style: none;
             <li>customer_id:</li><li><input type="text" name="customer_id" /></li>
             <li>Email:</li><li><input type="text" name="email" /></li>
             <li>Password:</li><li><input type="text" name="password" /></li>
-            <li><input type="submit" value="Add" /></li>
+            <li><input type="submit" value="OK" /></li>
         </form>
     </ul>
 
@@ -61,3 +61,22 @@ echo ($sql);
 ?>
 </body>
 </html>
+
+
+<h1>ATN's Store</h1>
+    <button onclick="location.href='index.php'">Home</button>
+    <div class="container">
+        <div class="grid-view">
+            <div class="grid-item">
+                <a href="#" onClick="displayData()"><b>View Invoice Database</b></a>
+            </div>
+            <div id ="displaychange" class="grid-item">
+                <table class="table table-bordered table-condensed">
+                    <thead>
+                    <tr>
+                        <th>customer_id</th>
+                        <th>email</th>
+                        <th>password</th>
+                    </tr>
+                    </thead>
+                    <tbody>
