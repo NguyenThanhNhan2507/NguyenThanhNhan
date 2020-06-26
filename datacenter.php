@@ -45,19 +45,17 @@
                     <tr>
                         <td>product_id</td>
                         <td scope="row"><?php echo $row['product_id'] ?></td>
+                        <td scope="row"><?php echo $row['product_id'] ?></td>
                     </tr>
                     <tr>
                         <td>name</td>
-                        <td><?php echo $row['name'] ?></td>
+                         <td scope="row"><?php echo $row['product_id'] ?></td>
+                         <td><?php echo $row['name'] ?></td>
                     </tr>
                     <tr>
                         <td>price</td>
-                        <td><?php echo $row['price'] ?></td>
-                    </tr>
-                    <tr>
-                        <td> 
-                            
-                        </td>
+                        <td scope="row"><?php echo $row['product_id'] ?></td>
+                         <td><?php echo $row['price'] ?></td>  
                     </tr>
                     </thead>
                     <tbody>
