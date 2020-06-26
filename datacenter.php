@@ -44,18 +44,9 @@
                     <thead>
                     <tr>
                         <td>product_id</td>
-                        <td scope="row"><?php echo $row['product_id'] ?></td>
-                        <td scope="row"><?php echo $row['product_id'] ?></td>
-                    </tr>
-                    <tr>
                         <td>name</td>
-                         <td scope="row"><?php echo $row['product_id'] ?></td>
-                         <td><?php echo $row['name'] ?></td>
-                    </tr>
-                    <tr>
                         <td>price</td>
-                        <td scope="row"><?php echo $row['product_id'] ?></td>
-                         <td><?php echo $row['price'] ?></td>  
+                        <td>2</td>
                     </tr>
                     </thead>
                     <tbody>
@@ -64,7 +55,11 @@
                             foreach ($resultSet as $row) {
                     ?>
                     
-
+                    <tr>
+                        <td scope="row"><?php echo $row['product_id'] ?></td>
+                        <td><?php echo $row['name'] ?></td>
+                        <td><?php echo $row['price'] ?></td>     
+                    </tr>
                     
                     <?php
                             }
