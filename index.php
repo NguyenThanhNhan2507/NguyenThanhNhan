@@ -16,8 +16,8 @@
                 <li><a href="#">Transaction history</a></li>
                 <li><a href="index.php">Recharge shop</a></li>
                 <li><a href="index.php">Page</a></li>
-                <li><a href="#">Guide</a></li>
-                <li><a href="AddDB.php">Login</a></li>
+                <li><a href="#">Sign up</a></li>
+                <li><a href="AddDB.php">Sign in</a></li>
             </ul>
         </div><!--End phần Menutop-->
         <div id="maincontent"><!--phần bao của content-->
