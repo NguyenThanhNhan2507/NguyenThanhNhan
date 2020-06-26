@@ -44,11 +44,7 @@
                     <thead>
                     <tr>
                         <td>product_id</td>
-                    </tr>
-                    <tr>
                         <td>name</td>
-                    </tr>
-                    <tr>
                         <td>price</td>
                     </tr>
                     </thead>
@@ -63,7 +59,10 @@
                         <td><?php echo $row['name'] ?></td>
                         <td><?php echo $row['price'] ?></td>     
                     </tr>
-                    
+                    <tr>
+                    <button class="buy"> <li><a href="./DeleteData.php">Delete</a></li></button>  
+                    <button class="buy"> <li><a href="./UpdateData.php">Update</a></li></button>
+                    </tr>
                     <?php
                             }
                     ?>
