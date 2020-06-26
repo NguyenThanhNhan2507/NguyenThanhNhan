@@ -13,7 +13,7 @@ list-style: none;
 <h1>Add data in user table</h1>
     <ul>
         <form name="InsertData" action="AddDB.php" method="POST" >
-            <li>Id:</li><li><input type="text" name="Id    " /></li>
+            <li>id:</li><li><input type="text" name="id    " /></li>
             <li>email:</li><li><input type="text" name="email" /></li>
             <li>password:</li><li><input type="text" name="password" /></li>
             <li><input type="submit" value="Add" /></li>
@@ -49,7 +49,7 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO Customers(email, password) VALUES ('$_POST[email]', '$_POST[password]')";
+$sql = "INSERT INTO signin(id, email, password) VALUES ('$_POST[id]','$_POST[email]', '$_POST[password]')";
 $stmt = $pdo->prepare($sql);
 echo ($sql);
     if($stmt->execute() == TRUE){
