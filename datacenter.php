@@ -57,7 +57,7 @@
                         <td scope="row"><?php echo $row['product_id'] ?></td>
                         <td><?php echo $row['name'] ?></td>
                         <td><?php echo $row['price'] ?></td>
-                        <td><?php echo $row['number'] ?></td>
+                        <td><?php echo $row['quantity'] ?></td>
                     </tr>
 
                     <?php

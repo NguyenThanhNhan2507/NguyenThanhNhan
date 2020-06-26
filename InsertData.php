@@ -16,7 +16,7 @@ list-style: none;
             <li>product_id:</li><li><input type="text" name="product_id" /></li>
             <li>name:</li><li><input type="text" name="name" /></li>
             <li>price:</li><li><input type="text" name="price" /></li>
-            <li>number:</li><li><input type="text" name="number" /></li>
+            <li>quantity:</li><li><input type="text" name="quantity" /></li>
             <li><input type="submit" value="Add" /></li>
         </form>
     </ul>
@@ -50,7 +50,7 @@ if($pdo === false){
 //$stmt->bindParam(':class', 'GCD018');
 //$stmt->execute();
 //$sql = "INSERT INTO student(stuid, fname, email, classname) VALUES('SV02', 'Hong Thanh','thanhh@fpt.edu.vn','GCD018')";
-$sql = "INSERT INTO products(product_id, name, price, number) VALUES ('$_POST[product_id]','$_POST[name]', '$_POST[price]', '$_POST[number]')";
+$sql = "INSERT INTO products(product_id, name, price, quantity) VALUES ('$_POST[product_id]','$_POST[name]', '$_POST[price]', '$_POST[quantity]')";
 $stmt = $pdo->prepare($sql);
 echo ($sql);
     if($stmt->execute() == TRUE){
