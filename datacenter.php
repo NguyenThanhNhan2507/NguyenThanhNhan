@@ -43,7 +43,7 @@
                 <table class="table table-bordered table-condensed">
                     <thead>
                     <tr>
-                        <th>products_id</th>
+                        <th>product_id</th>
                         <th>name</th>
                         <th>price</th>
                     </tr>
@@ -55,7 +55,7 @@
                     ?>
                     
                     <tr>
-                        <td scope="row"><?php echo $row['products_id'] ?></td>
+                        <td scope="row"><?php echo $row['product_id'] ?></td>
                         <td><?php echo $row['name'] ?></td>
                         <td><?php echo $row['price'] ?></td>     
                     </tr>
