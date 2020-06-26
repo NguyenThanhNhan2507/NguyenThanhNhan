@@ -47,5 +47,5 @@ if($stmt->execute() == TRUE){
 ?>
 </body>
   <h1></h1>
-    <button onclick="location.href='datacenter.php'">Cart</button>
+    <button onclick="location.href='datacenter.php'">Go to Cart</button>
 </html>
