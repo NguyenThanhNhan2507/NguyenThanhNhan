@@ -10,9 +10,9 @@ list-style: none;
 </style>
 </head>
 <body>
-<h1>Add data in product table</h1>
+<h1>Add data in user table</h1>
     <ul>
-        <form name="InsertData" action="InsertData.php" method="POST" >
+        <form name="InsertData" action="AddDB.php" method="POST" >
             <li>customer_id:</li><li><input type="text" name="customer_id" /></li>
             <li>Email:</li><li><input type="text" name="email" /></li>
             <li>Password:</li><li><input type="text" name="password" /></li>
