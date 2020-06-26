@@ -44,7 +44,7 @@
                         <td>product_id</td>
                         <td>name</td>
                         <td>price</td>
-                     <td>number</td>
+                     <td>quantity</td>
                     </tr>
                     </thead>
                     <tbody>
