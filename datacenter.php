@@ -42,6 +42,10 @@
                
                <table width="400" height="200" border="2">  
                     <thead>
+                        <tr>      
+                    <button class="buy"> <li><a href="./DeleteData.php">Delete</a></li></button>  
+                    <button class="buy"> <li><a href="./UpdateData.php">Update</a></li></button>
+                         </tr>
                     <tr>
                         <td>product_id</td>
                         <td>name</td>
@@ -59,10 +63,7 @@
                         <td><?php echo $row['name'] ?></td>
                         <td><?php echo $row['price'] ?></td>     
                     </tr>
-                    <tr>
-                    <button class="buy"> <li><a href="./DeleteData.php">Delete</a></li></button>  
-                    <button class="buy"> <li><a href="./UpdateData.php">Update</a></li></button>
-                    </tr>
+
                     <?php
                             }
                     ?>
