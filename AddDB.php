@@ -12,7 +12,7 @@ list-style: none;
 <body>
 <h1>Add data in user table</h1>
     <ul>
-        <form name="InsertData" action="AddDB.php.php" method="POST" >
+        <form name="InsertData" action="AddDB.php" method="POST" >
             <li>customer_id:</li><li><input type="text" name="customer_id    " /></li>
             <li>email:</li><li><input type="text" name="email" /></li>
             <li>password:</li><li><input type="text" name="password" /></li>
